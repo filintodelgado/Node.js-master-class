@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <!-- General settings -->
+    <meta charset="utf8">
+    <meta lang="en-US">
+    <meta http-equiv="content-language" content="en-us">
+    <base href="{global.baseUrl">
+
+    <!-- Meta tags -->
+    <title>{head.title} | {global.appName}</title>
+    <meta name="discription" content="{head.discription}">
+
+    <!-- Static assets -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" charset="utf-8" src="public/app.js"></script>
+    <link rel="stylesheet" href="public/app.css" type="text/css">
+
+  </head>
+
+  <body class="{body.class}">
+    <!-- Page wrapper -->
+    <div class="wrapper">
+    
+      <!-- Header -->
+      <header class="header">
+        <!-- Logo -->
+        <a href="/" class="logo"></a>
+
+        <!-- Navigation -->
+        <nav>
+          <ul class="menu">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a class="loggedOut" href="/">Signup</a>
+            </li>
+            <li>
+              <a class="loggedOut" href="/">Login</a>
+            </li>
+            <li>
+              <a class="loggedIn" href="/">Dashboard</a>
+            </li>
+            <li>
+              <a class="loggedIn" href="/">Account settings</a>
+            </li>
+            <li>
+              <a class="loggedIn" href="/">Logout</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="content">
